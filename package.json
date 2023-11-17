@@ -1,0 +1,7 @@
+{
+  "name": "github-actions",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "beatrizdaddea <beatrizchith@gmail.com>",
+  "license": "MIT"
+}
