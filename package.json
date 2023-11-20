@@ -2,7 +2,7 @@
   "name": "06-github-actions-front-end",
   "version": "1.0.0",
   "main": "index.js",
-  "author": "Mario Souto <13791385+omariosouto@users.noreply.github.com>",
+  "author": "beatrizdaddea <beatrizchith@gmail.com>",
   "license": "MIT",
   "dependencies": {
     "eslint-plugin-prettier": "^4.0.0",
