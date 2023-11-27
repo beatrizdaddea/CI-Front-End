@@ -1,8 +1,6 @@
 import { execSync } from "child_process";
 import fetch from "node-fetch";
 
-// Vercel ===================================
-
 console.log("[DEPLOY_PREVIEW]: START");
 const command = "yarn deploy:staging";
 const output = execSync(command, { encoding: "utf8" });
@@ -12,7 +10,8 @@ console.log("[DEPLOY_PREVIEW]: END");
 
 console.log(`You can see the deploy preview on: ${DEPLOY_URL}`);
 
-// PullRequest Comments ===================================
+// ===================================
+// ===================================
 
 console.log("[GITHUB_COMMENT]: START");
 const { GITHUB_TOKEN, GITHUB_REPOSITORY, GITHUB_PR_NUMBER } = process.env;
